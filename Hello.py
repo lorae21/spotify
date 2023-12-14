@@ -73,7 +73,7 @@ if st.button("Predict Song Popularity"):
 
     st.success(f"Predicted Popularity: {predicted_popularity:.4f}")
 
-'''
+"""
 import streamlit as st
 from streamlit.logger import get_logger
 
@@ -111,4 +111,4 @@ def run():
 
 if __name__ == "__main__":
     run()
-'''
+"""
