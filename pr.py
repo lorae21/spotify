@@ -4,7 +4,7 @@
 # In[15]:
 
 
-get_ipython().system('pip install joblib')
+('pip install joblib')
 
 
 # In[8]:
