@@ -1,4 +1,4 @@
-from sklearn.externals import joblib  # Remove this line if you don't need joblib
+import joblib  # Remove this line if you don't need joblib
 
 def load_model_somehow():
     # Implement your own method to load or initialize the model
