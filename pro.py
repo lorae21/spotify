@@ -1,7 +1,7 @@
 
 #import joblib
 
-popularity_model = joblib.load('popularity_model.pkl')
+#popularity_model = joblib.load('popularity_model.pkl')
 
 
 # Now you can use the predict method
