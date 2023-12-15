@@ -5,7 +5,7 @@
 
 
 # Now you can use the predict method
-prediction = popularity_model.predict(data[features])[0]
+#prediction = popularity_model.predict(data[features])[0]
 
 
 
