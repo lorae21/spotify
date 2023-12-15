@@ -45,7 +45,7 @@ def predict_popularity(data):
     data = pd.DataFrame(data, index=[0])
 
     # Predict popularity
-    prediction = model.predict(data[features])[0]
+    prediction = popularity_model.predict(data[features])[0]
 
     # Return prediction
     return prediction
