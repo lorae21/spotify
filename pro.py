@@ -1,21 +1,13 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[15]:
 
 
-get_ipython().system('pip install joblib')
-
-
-# In[13]:
 
 
 # Import joblib
-import joblib
+#import joblib
 
 # Save the model
 model = "popularity_model.pkl"
-joblib.dump(model, model)
+#joblib.dump(model, model)
 
 # Print confirmation message
 print(f"Model saved successfully to: {model}")
@@ -35,10 +27,10 @@ pickle_out.close()
 
 import streamlit as st
 import pandas as pd
-import joblib
+#import joblib
 
 # Load model
-model = joblib.load("spotify_song_popularity_model.pkl")
+#model = joblib.load("spotify_song_popularity_model.pkl")
 
 pickle_in = open("popularity_model.pkl", "rb")
 popularity_model = pickle.load(pickle_in)
