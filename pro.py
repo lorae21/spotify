@@ -1,7 +1,7 @@
 from sklearn.externals import joblib
 
-# Load the trained model
-popularity_model = joblib.popularity_model.pkl')
+popularity_model = joblib.load('popularity_model.pkl')
+
 
 # Now you can use the predict method
 prediction = popularity_model.predict(data[features])[0]
