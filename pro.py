@@ -1,5 +1,5 @@
 
-import joblib
+#import joblib
 
 popularity_model = joblib.load('popularity_model.pkl')
 
