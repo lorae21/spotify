@@ -1,3 +1,14 @@
+def predict_popularity(user_input):
+    # Load or initialize your model using a different approach
+    # For example, if using scikit-learn:
+    from sklearn.externals import joblib  # Remove this line if you don't need joblib
+
+    # Load your model using a different approach
+     popularity_model = joblib.load('popularity_model.pkl')
+
+    # Now, continue with your prediction logic
+    prediction = popularity_model.predict(data[features])[0]
+    return prediction
 
 #import joblib
 
